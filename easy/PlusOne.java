@@ -14,7 +14,7 @@ class Solution {
                 return digits;
             }
 
-            // digit is 9 → becomes 0, carry continues
+            // digit is 9 → becomes 0, carry continue
             digits[i] = 0;
             i--;
         }
